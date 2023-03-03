@@ -1,0 +1,41 @@
+{
+    "name": "owl/equipment",
+    "type": "library",
+    "description": "PHP component for managing equipments.",
+    "keywords": [
+        "equipment",
+        "owl"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paweł Kęska"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "sylius/resource": "^1.7"
+    },
+    "require-dev": {
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sylius\\Component\\Equipment\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../../*/*"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
