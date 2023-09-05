@@ -11,6 +11,9 @@ class EquipmentAttribute extends BaseAttribute implements EquipmentAttributeInte
     /** @var string */
     protected $name;
 
+    /**
+     * @return string
+     */
     public function getName(): ?string
     {
         return $this->name;
