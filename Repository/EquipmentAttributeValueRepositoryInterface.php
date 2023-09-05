@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Owl\Component\Equipment\Repository;
 
-use Sylius\Component\Equipment\Model\EquipmentAttributeValueInterface;
+use Owl\Component\Equipment\Model\EquipmentAttributeValueInterface;
 use Sylius\Component\Resource\Repository\RepositoryInterface;
 
 interface EquipmentAttributeValueRepositoryInterface extends RepositoryInterface
