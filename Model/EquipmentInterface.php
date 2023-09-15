@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Owl\Component\Equipment\Model;
@@ -7,7 +8,7 @@ use Owl\Component\Attribute\Model\AttributeSubjectInterface;
 use Sylius\Component\Resource\Model\ResourceInterface;
 use Sylius\Component\Resource\Model\TimestampableInterface;
 
-interface EquipmentInterface extends 
+interface EquipmentInterface extends
     AttributeSubjectInterface,
     TimestampableInterface,
     ResourceInterface

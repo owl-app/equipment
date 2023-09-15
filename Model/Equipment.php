@@ -113,7 +113,7 @@ class Equipment implements EquipmentInterface
         Assert::isInstanceOf(
             $attribute,
             EquipmentAttributeValueInterface::class,
-            'Attribute objects added to a Product object have to implement EquipmentAttributeValueInterface'
+            'Attribute objects added to a Product object have to implement EquipmentAttributeValueInterface',
         );
 
         if (!$this->hasAttribute($attribute)) {
@@ -128,7 +128,7 @@ class Equipment implements EquipmentInterface
         Assert::isInstanceOf(
             $attribute,
             EquipmentAttributeValueInterface::class,
-            'Attribute objects removed from a Product object have to implement EquipmentAttributeValueInterface'
+            'Attribute objects removed from a Product object have to implement EquipmentAttributeValueInterface',
         );
 
         if ($this->hasAttribute($attribute)) {
